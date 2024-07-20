@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  /* background-image: url("./background.png"); */
+  background-position: center;
+  background-size: cover;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+
+.student-table-container {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-container h1 {
+    margin-bottom: 10px;
+  }
+}
+
+.rdt_Table {
+  display: flex;
+  flex-direction: column;
+}
+
+.rdt_Pagination {
+  align-self: center;
+}
